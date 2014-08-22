@@ -2,6 +2,8 @@
 ##    those means together for each subject and activity
 run_analysis <- function() {
   
+        library(reshape2)
+        
         # does the variable rawData exist
         #if (!exists("rawData") || is.na(rawData)){
           # Merges the training and the test sets to create one data set.
